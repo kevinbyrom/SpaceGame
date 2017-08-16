@@ -1,0 +1,11 @@
+C:\Development\Game Source\SpaceGame\SpaceGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\Game Source\SpaceGame\SpaceGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Development\Game Source\SpaceGame\SpaceGame\bin\x86\Debug\SpaceGame.exe
+C:\Development\Game Source\SpaceGame\SpaceGame\bin\x86\Debug\SpaceGame.pdb
+C:\Development\Game Source\SpaceGame\SpaceGame\bin\x86\Debug\XNAGameLib.dll
+C:\Development\Game Source\SpaceGame\SpaceGame\bin\x86\Debug\XNAGameLib.pdb
+C:\Development\Game Source\SpaceGame\SpaceGame\obj\x86\Debug\SpaceGame.exe
+C:\Development\Game Source\SpaceGame\SpaceGame\obj\x86\Debug\SpaceGame.pdb
+D:\Development\Game Source\SpaceGame\SpaceGame\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Development\Game Source\SpaceGame\SpaceGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Development\Game Source\SpaceGame\SpaceGame\obj\x86\Debug\SpaceGame.pdb

@@ -1,0 +1,12 @@
+<object>
+	<screenparams>
+		<origin x="16" y="16"/>
+		<spriterect width="32" height="32"/>
+		<spritetexture name="Smoke" filename="smoke_1.png"/>
+	</screenparams>
+	<worldparams>
+		<maxspeed val="0" min="0" max="100"/>
+		<accel val="100" min="0" max="100"/>
+		<friction val="0"/>
+	</worldparams>
+</object>

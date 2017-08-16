@@ -1,0 +1,12 @@
+<object>
+	<screenparams>
+		<origin x="10" y="10"/>
+		<spriterect width="20" height="20"/>
+		<spritetexture name="Star" filename="star_1.png"/>
+	</screenparams>
+	<worldparams>
+		<maxspeed val="0" min="0" max="100"/>
+		<accel val="100" min="0" max="100"/>
+		<friction val="0"/>
+	</worldparams>
+</object>

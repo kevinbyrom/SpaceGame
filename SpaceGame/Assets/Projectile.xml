@@ -1,0 +1,16 @@
+<object>
+	<screenparams>
+		<origin x="5" y="15"/>
+		<spriterect width="100" height="100"/>
+		<spritetexture name="Ship" filename="ship_1.png"/>
+		<spriteanimation enabled="true" playmode="1">
+			<framereel name="primaryfire">
+				<animframe x="311" y="1" width="11" height="31" timemsecs="1000"/>
+			</framereel>
+		</spriteanimation>
+	</screenparams>
+	<worldparams>
+		<maxspeed val="1000" min="0" max="2000"/>
+		<maxrotatespeed val="6.2831" min="0" max="6.2831"/>
+	</worldparams>
+</object>

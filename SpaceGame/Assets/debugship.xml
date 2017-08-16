@@ -1,0 +1,30 @@
+<object>
+	<screenparams>
+		<origin x="50" y="50"/>
+		<spriterect width="100" height="100"/>
+		<spritetexture name="Ship" filename="ship_1.png"/>
+		<spriteanimation enabled="true" playmode="1">
+			<framereel name="standard">
+				<animframe x="1" y="1" width="100" height="100" timemsecs="1000"/>
+			</framereel>
+			<framereel name="anim1">
+				<animframe x="101" y="1" width="100" height="100" timemsecs="100"/>
+				<animframe x="201" y="1" width="100" height="100" timemsecs="100"/>
+			</framereel>
+			<framereel name="primaryfire">
+				<animframe x="310" y="0" width="10" height="10" timemsecs="1000"/>
+			</framereel>
+		</spriteanimation>
+	</screenparams>
+	<worldparams>
+		<maxspeed val="1000" min="0" max="2000"/>
+		<maxrotatespeed val="6.2831" min="0" max="6.2831"/>
+	</worldparams>
+	<thrusters>
+		<thruster emittype="stream" localx="-25" localy="-25" localnormalx="0" localnormaly="-1"/>
+		<thruster emittype="stream" localx="25" localy="-25" localnormalx="0" localnormaly="-1"/>
+	</thrusters>
+	<weapons>
+		<primary x="0" y="25" width="1" height="1"/>
+	</weapons>
+</object>

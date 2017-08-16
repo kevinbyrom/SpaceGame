@@ -1,0 +1,76 @@
+<gameEntities>
+	<planet>
+		<screen>
+			<screenSize x="200" y="200"/>
+		</screen>
+		<sprite rotation="0" scale="1" depth="1" opacity="1">
+			<origin x="100" y="100"/>
+			<tint x="1" y="1" z="1"/>
+			<texture name="planet" filename="png\planet_1.png"/>		
+			<spriteRect x="0" y="0" width="200" height="200"/>
+		</sprite>
+		<world>
+			<size width="200" height="200"/>
+			<maxRotateSpeed val=".78539" min="0" max=".78539"/>
+			<boundings>
+				<bounding boundType="1">
+					<localPos x="0" y="0" z="0"/>
+					<size x="100" y="100" z="0"/>
+				</bounding>
+			</boundings>
+		</world>
+	</planet>
+
+
+
+	<star>
+		<screen>
+			<screenSize x="10" y="10"/>
+		</screen>
+		<sprite scale="1" depth="1" opacity="1">
+			<origin x="5" y="5"/>
+			<tint x="1" y="1" z="1"/>
+			<texture name="star" filename="png\star_1.png"/>
+			<spriteRect width="10" height="10"/>
+		</sprite>
+		<world>
+			<size width="10" height="10"/>
+		</world>
+	</star>
+
+
+
+	<ship>
+		<screen>
+			<screenSize x="100" y="100"/>
+		</screen>
+		<sprite rotation="0" scale="1" depth="1" opacity="1">
+			<origin x="50" y="50"/>
+			<tint x="1" y="1" z="1"/>
+			<texture name="shipxyz" filename="png\ship_1.png"/>		
+			<spriteRect x="0" y="0" width="100" height="100"/>
+			<animations>
+				<animation name="standard" type="0" repeatMode="0">
+					<spriteFrame timeMSecs="100">
+						<rect x="0" y="0" width="100" height="100"/>
+						<origin x="100" y="100"/>	
+					</spriteFrame>			
+				</animation>
+			</animations>
+		</sprite>
+		<world>
+			<size width="100" height="100"/>
+			<maxSpeed val="1000" min="0" max="2000"/>
+			<maxRotateSpeed val="6.2831" min="0" max="6.2831"/>
+			<boundings>
+				<bounding boundType="1">
+					<localPos x="0" y="0" z="0"/>
+					<size x="50" y="50" z="0"/>
+				</bounding>
+			</boundings>
+		</world>
+	</ship>
+
+
+</gameEntities>
+

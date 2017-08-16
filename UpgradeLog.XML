@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SpaceGame">
+</Property><Property Name="Solution File" Value="D:\Development\Game Source\SpaceGame\SpaceGame.sln">
+</Property><Property Name="User Options File" Value="D:\Development\Game Source\SpaceGame\SpaceGame.suo">
+</Property><Property Name="Date" Value="Sunday, May 22, 2011">
+</Property><Property Name="Time" Value="15:27 PM">
+</Property><Property Name="Solution" Value="SpaceGame">
+</Property><Property Name="Solution File" Value="D:\Development\Game Source\SpaceGame\SpaceGame.sln">
+</Property><Property Name="Date" Value="Sunday, May 22, 2011">
+</Property><Property Name="Time" Value="15:27:51 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SpaceGame.sln" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SpaceGame.suo" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame.suo">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\SpaceGame.csproj" Description="Upgraded XNA Game Studio project to XNA Framework 4.0.">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\SpaceGame.csproj" Description="Project file successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\SpaceGame.csproj">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\SpaceGame.csproj.user" Description="Project user file successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\SpaceGame.csproj.user">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Entities\General\Ships\IShip.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Entities\General\Ships\IShip.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Helpers\TrigHelper.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Helpers\TrigHelper.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\States\BattleState.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\States\BattleState.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Entities\Battle\BattleCamera.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Entities\Battle\BattleCamera.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Entities\Battle\BattleWorld.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Entities\Battle\BattleWorld.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Entities\General\Planets\Planet.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Entities\General\Planets\Planet.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Entities\General\Ships\Ship.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Entities\General\Ships\Ship.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Game Services\Game State\GameState.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Game Services\Game State\GameState.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Game Services\Game State\GameStateManager.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Game Services\Game State\GameStateManager.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Game Services\Game State\IGameState.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Game Services\Game State\IGameState.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Game Services\Game State\IGameStateManager.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Game Services\Game State\IGameStateManager.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Program.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Program.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\SpaceGame.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\SpaceGame.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Game Services\Screen Manager\IScreenManager.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Game Services\Screen Manager\IScreenManager.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Game Services\Screen Manager\ScreenManager.cs" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Game Services\Screen Manager\ScreenManager.cs">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\Game.ico" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\Game.ico">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\GameThumbnail.png" Description="File successfully backed up as D:\Development\Game Source\SpaceGame\Backup\SpaceGame\GameThumbnail.png">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\SpaceGame.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SpaceGame" Source="SpaceGame\SpaceGame.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SpaceGame.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SpaceGame.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\SpaceGame.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SpaceGame" Source="SpaceGame\SpaceGame.csproj" Description="Upgraded XNA Framework references to XNA Framework 4.0.">
+</Event><Event ErrorLevel="0" Project="Content.contentproj" Source="Content.contentproj" Description="Copied XNA Game Studio Content Project content to backup location.">
+</Event><Event ErrorLevel="0" Project="SpaceGameContent" Source="SpaceGame\Content\SpaceGameContent.contentproj" Description="Upgraded XNA Game Studio nested content projects to XNA Framework 4.0 and promoted to sibling project.">
+</Event></UpgradeLog>

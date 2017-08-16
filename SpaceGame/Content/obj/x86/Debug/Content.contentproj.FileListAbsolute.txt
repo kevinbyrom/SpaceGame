@@ -1,0 +1,1 @@
+C:\Development\Game Source\SpaceGame\SpaceGame\Content\obj\x86\Debug\ResolveAssemblyReference.cache

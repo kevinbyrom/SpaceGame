@@ -1,0 +1,11 @@
+<object>
+	<screenparams>
+		<origin x="50" y="50"/>
+		<spriterect width="100" height="100"/>
+		<spritetexture name="Shipxyz" filename="ship.png"/>
+	</screenparams>
+	<worldparams>
+		<maxrotatespeed val="1000" min="0" max="2000"/>
+		<maxrotatespeed val="6.2831" min="0" max="6.2831"/>
+	</worldparams>
+</object>

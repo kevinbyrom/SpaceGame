@@ -1,0 +1,10 @@
+<object>
+	<screenparams>
+		<origin x="100" y="100"/>
+		<spriterect width="200" height="200"/>
+		<spritetexture name="Planet" filename="planet_1.png"/>
+	</screenparams>
+	<worldparams>
+		<maxrotatespeed val=".78539" min="0" max=".78539"/>
+	</worldparams>
+</object>

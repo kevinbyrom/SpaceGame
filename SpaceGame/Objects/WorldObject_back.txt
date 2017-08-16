@@ -1,0 +1,155 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Graphics; 
+
+
+namespace WindowsGame1
+{
+    public class WorldObject
+    {
+        protected Vector2 m_Position;
+        protected Vector2 m_Normal;
+        protected Vector2 m_Velocity;
+        protected Vector2 m_Origin;
+        protected WOAttribute m_Scale;
+        protected WOAttribute m_Rotation;
+        protected WOAttribute m_Friction;
+        protected WOAttribute m_Accel;
+        protected WOAttribute m_Speed_Units_Sec;
+        protected WOAttribute m_Speed_Rotate_Sec;
+        protected Rectangle m_SpriteRect = new Rectangle(0, 0, 100, 100);
+        protected Texture2D m_Texture;
+
+
+        #region Public Properties
+
+        public Vector2 Position
+        {
+            get
+            {
+                return m_Position;
+            }
+        }
+
+
+        public Vector2 Normal
+        {
+            get
+            {
+                return m_Normal;
+            }
+        }
+
+
+        public Vector2 Velocity
+        {
+            get
+            {
+                return m_Velocity;
+            }
+        }
+
+
+        public float Rotation
+        {
+            get
+            {
+                return m_Rotation;
+            }
+        }
+
+        #endregion
+
+
+        public WorldObject()
+        {
+            Initialize();
+        }
+
+
+        #region Initialize()
+
+        public virtual void Initialize()
+        {
+            m_Velocity.X    = 0;
+            m_Velocity.Y    = 0;
+            m_Position.X    = 100;
+            m_Position.Y    = 100;
+            
+            m_Accel             = new WOAttribute();
+            m_Scale             = new WOAttribute();
+            m_Rotation          = new WOAttribute();
+            m_Friction          = new WOAttribute();
+            m_Scale             = new WOAttribute();
+            m_Rotation          = new WOAttribute();
+            m_Friction          = new WOAttribute(World.DefaultFriction);
+            m_Speed_Units_Sec   = new WOAttribute(); 
+            m_Speed_Rotate_Sec  = new WOAttribute();
+        }
+
+        #endregion
+
+
+        #region Update(gametime)
+
+        public virtual void Update(GameTime gametime)
+        {
+            float elapsed = ((float)gametime.ElapsedGameTime.Milliseconds / 1000);
+
+
+            // Calculate the normal
+
+            m_Normal.X = (float)Math.Cos(m_Rotation);
+            m_Normal.Y = (float)Math.Sin(m_Rotation);
+
+            
+            // Change the velocity based on the thrust
+
+            if (m_Accel > 0f)
+            {
+                         
+                // Calculate the target velocity
+
+                Vector2 target;
+
+                target.X = normal.X * m_Speed_Units_Sec;
+                target.Y = normal.Y * m_Speed_Units_Sec;
+
+                float highx = Math.Max(Math.Abs(target.X), Math.Abs(m_Velocity.X));
+                float highy = Math.Max(Math.Abs(target.Y), Math.Abs(m_Velocity.Y));
+
+                m_Velocity.X = MathHelper.Clamp(m_Velocity.X + (target.X * m_Accel * elapsed), -highx, highx);
+                m_Velocity.Y = MathHelper.Clamp(m_Velocity.Y + (target.Y * m_Accel * elapsed), -highy, highy);
+
+            }
+         
+
+            // Add some friction
+
+            m_Velocity.X = m_Velocity.X * (1f - m_Friction);
+            m_Velocity.Y = m_Velocity.Y * (1f - m_Friction);
+
+         
+            // Adjust the position, scale and rotation
+
+            m_Position.X += elapsed * m_Velocity.X;
+            m_Position.Y += elapsed * m_Velocity.Y;
+
+        }
+
+        #endregion
+
+
+        #region Draw(spritebatch)
+
+        public virtual void Draw(SpriteBatch spritebatch)
+        {
+        }
+
+        #endregion
+
+    }
+}
